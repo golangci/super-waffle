@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
     fmt.Println("Hello")
+    foo("a")
 }
 
 func foo(a string) error {
