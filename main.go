@@ -7,10 +7,12 @@ func main() {
     foo("a")
 }
 
-func foo(a string) error {
+func foo(a string) bool {
 	if a == "a" {
-		return nil
+		return true
 	}
 
-	return fmt.Errorf("OOPS")
+	fmt.Println("not a")
+
+	return false
 }
