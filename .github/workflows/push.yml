@@ -34,7 +34,7 @@ jobs:
         run: git log --graph --pretty=tformat:'%Cred%h%Creset %Cblue%G?%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ar)%Creset' --branches --remotes
 
       - name: golangci-lint
-        uses: golangci/golangci-lint-action@ffc1b2edc2b5fb7439914c81a88458e8815c504a
+        uses: golangci/golangci-lint-action@95044cb221e50abe87c1150edcaa5e81526f34d4
         with:
           version: v1.57
           # args: --timeout=30m --config=/my/path/.golangci.yml --issues-exit-code=0
