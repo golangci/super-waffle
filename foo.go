@@ -3,9 +3,10 @@ package main
 import "fmt"
 
 func Foo() {
-    fmt.Println("Bada")
+	foo("a")
+	fmt.Println("Bada")
 }
 
 func Bar() {
-    fmt.Println("Bada?")
+	fmt.Println("Bada?")
 }
